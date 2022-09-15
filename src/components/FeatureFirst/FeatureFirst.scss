@@ -1,0 +1,27 @@
+.feature-first {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  &__box {
+    margin-left: 100px;
+    margin-right: 135px;
+
+    .title {
+      font-size: 36px;
+      font-weight: 700;
+      color: #2d1d61;
+      line-height: 130%;
+    }
+
+    .content {
+      opacity: 0.8;
+      font-size: 16px;
+      font-weight: 400;
+      color: #363049;
+
+      line-height: 150.7%;
+      letter-spacing: 0.1px;
+    }
+  }
+}

@@ -4,6 +4,10 @@
   display: flex;
   background: #f4f1ff;
 
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+
   &__box {
     width: 513px;
     display: flex;
