@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    padding: 55px 146px;
+
+    justify-content: space-between;
+
+
+    &__left {
+        font-size: 20px;
+        color: #1E1638;
+        font-weight: 700;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: row;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+
+        .text {
+            margin-left: 20px;
+        }
+    } 
+}
